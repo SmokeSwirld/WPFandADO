@@ -1,0 +1,143 @@
+﻿<Window x:Class="WPFandADO.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFandADO"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid  >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <DockPanel  
+            Grid.Column="0"
+            Background="Bisque">
+
+            <StackPanel >
+                <Label
+                 Background="Yellow"
+                 BorderBrush="Black"
+                 BorderThickness="3"
+                 Content="WPF"           
+                 FontSize="12"
+                 FontWeight="Bold"
+                 HorizontalContentAlignment="Center"
+                 Margin="10 ,10" 
+                 Padding="10 ,5">
+                </Label>
+                <Button
+                 Click="Containers_Click"
+                 Content="Containers Lessons"           
+                 FontSize="12"
+                 FontWeight="Bold"
+                 HorizontalContentAlignment="Center"
+                 Margin="10 ,5" 
+                 Padding="5 ,5">
+                </Button>
+                <Button
+                 Click="ContainersHome_Click"
+                 Content="Containers Home"           
+                 FontSize="12"
+                 FontWeight="Bold"
+                 HorizontalContentAlignment="Center"
+                 Margin="10 ,5" 
+                 Padding="5 ,5">
+                </Button>
+                <Button
+                 Click="Mine_Click"
+                 Content="Interaction of elements(Mine Lessons and Home)"           
+                 FontSize="12"
+                 FontWeight="Bold"
+                 HorizontalContentAlignment="Center"
+                 Margin="10 ,5" 
+                 Padding="5 ,5">
+                </Button>
+                <Button
+                 Click="Canvas_Click"
+                 Content="Graphics and dynamics(Canvas Lessons and Home)"           
+                 FontSize="12"
+                 FontWeight="Bold"
+                 HorizontalContentAlignment="Center"
+                 Margin="10 ,5" 
+                 Padding="5 ,5">
+                </Button>
+                <Button
+                 Click="Styles_Click"
+                 Content="Window resources: Styles Lessons"           
+                 FontSize="12"
+                 FontWeight="Bold"
+                 HorizontalContentAlignment="Center"
+                 Margin="10 ,5" 
+                 Padding="5 ,5">
+                </Button>
+                <Button
+                 Click="Triggers_Click"
+                 Content="Window resources: Triggers Lessons"           
+                 FontSize="12"
+                 FontWeight="Bold"
+                 HorizontalContentAlignment="Center"
+                 Margin="10 ,5" 
+                 Padding="5 ,5">
+                </Button>
+                <Button
+                 Click="TriStyHome_Click"
+                 Content="Window resources: Triggers and Styles Home"           
+                 FontSize="12"
+                 FontWeight="Bold"
+                 HorizontalContentAlignment="Center"
+                 Margin="10 ,5" 
+                 Padding="5 ,5">
+                </Button>
+                <Button
+                 Click="DnD_Click"
+                 Content="Drag n'Drop (DnD)Lessons and Home"           
+                 FontSize="12"
+                 FontWeight="Bold"
+                 HorizontalContentAlignment="Center"
+                 Margin="10 ,5" 
+                 Padding="5 ,5">
+                </Button>
+
+
+            </StackPanel>
+        </DockPanel>
+        <DockPanel  
+            Grid.Column="1"
+            Background="Khaki">
+            <StackPanel >
+                <Label
+                 Background="Yellow"
+                 BorderBrush="Black"
+                 BorderThickness="3"
+                 Content="ADO"           
+                 FontSize="12"
+                 FontWeight="Bold"
+                 HorizontalContentAlignment="Center"            
+                 Margin="10 ,10" 
+                 Padding="10 ,5">
+                </Label>
+                <Button
+                Click="ADObasic_Click"
+                 Content="ADO Basics(lessons and Home) "           
+                 FontSize="12"
+                 FontWeight="Bold"
+                 HorizontalContentAlignment="Center"
+                 Margin="10 ,5" 
+                 Padding="5 ,5">
+                </Button>
+                <Button
+                 
+                 Content="Sales"           
+                 FontSize="12"
+                 FontWeight="Bold"
+                 HorizontalContentAlignment="Center"
+                 Margin="10 ,5" 
+                 Padding="5 ,5">
+                </Button>
+            </StackPanel>
+        </DockPanel>
+    </Grid>
+</Window>
